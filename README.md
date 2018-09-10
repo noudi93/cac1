@@ -14,3 +14,11 @@ Install dependencies (once) and then run the application:
  $ npm install
  $ npm run start
 ```
+
+## Environment variables
+The web application runs on port 3000 by default.
+The port can be changed using the PORT environment variable.
+For example:
+```
+ $ export PORT=80
+```
