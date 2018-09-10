@@ -6,7 +6,8 @@ hostname of the server and the current time.
 The server running the application should have NodeJS (8.x) installed.
 Clone this repository to the server:
 ```
- $ git clone git@github.com:TimothySealy/cac-simple-webapp.git
+ $ git clone https://github.com/TimothySealy/cac-simple-webapp.git
+ $ cd cac-simple-webapp
 ```
 Install dependencies (once) and then run the application:
 ```
