@@ -12,7 +12,7 @@ app.get('/', function (req, res) {
 })
 
 app.get('/bucket', function (req, res) {
-  var bucketname = req.query.name
+  var bucketname = process.env.BUCKET_NAME || req.query.name
   var s3 = new AwsS3({apiVersion: '2006-03-01'})
   const s3params = {
     Bucket: bucketname,
