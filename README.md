@@ -25,3 +25,10 @@ For example:
 ```
  $ export PORT=80
 ```
+
+The web application can be configured to list a default bucket.
+The bucket name can be changed using the BUCKET_NAME environment variable.
+For example:
+```
+ $ export BUCKET_NAME=cac-demo-static
+```
