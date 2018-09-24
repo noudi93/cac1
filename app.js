@@ -4,7 +4,7 @@ var app = express()
 var util = require('util')
 var os = require('os')
 
-const DB_URL = process.env.DB_URL || 'postgres://localhost:5432/tododb'
+const DB_URL = process.env.DB_URL || 'postgres://postgres@localhost:5432/tododb'
 const PORT = process.env.PORT || 3000
 const HOSTNAME = os.hostname()
 
