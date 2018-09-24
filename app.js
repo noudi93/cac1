@@ -40,7 +40,7 @@ app.get('/todos', function (req, res) {
           content += '</li>'
         }
         content += '</ol>'
-        res.send('<html><head></head><body>' + form + content + '</body></html>')
+        res.send('<html><head></head><body><p>Postgres demo:</p>' + form + content + '</body></html>')
         client.end()
       })
     }
