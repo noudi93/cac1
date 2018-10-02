@@ -28,7 +28,9 @@ For example:
 ```
 
 In order to connect to a mongo database the BD_URL environment variable must be set.
-The DB_URL defaults to 'mongodb://localhost:27017/tododb' 
+The DB_URL defaults to 'mongodb://localhost:27017/tododb'.
+
+In order to connect to a MongoDB on a different host set the connection string as follows: 
 ```
  $ export DB_URL=mongodb://<server_ip_address>:27017/tododb
 ```
